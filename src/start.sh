@@ -1,0 +1,1 @@
+afl-fuzz -i /tmp/in -o /tmp/out -M f1 /root/sudo-1.8.31p2/src/sudo

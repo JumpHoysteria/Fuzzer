@@ -1,0 +1,8 @@
+services:
+  fuzzer:
+    build: .
+    security_opt:
+      - seccomp:unconfined
+    volumes:
+      - c:/Users/Alex/Desktop/Fuzzer/src:/root/code
+    command: tail -F anything
